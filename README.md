@@ -1,4 +1,22 @@
-# git-cheat-sheet
+
+## Ветвление
+#### Создать новую ветку
+
+    git checkout -b NewBranch
+    
+Тоже самое что и
+
+    git branch NewBranch
+    git checkout NewBranch
+
+#### Слить ветку
+Переключиться на ветку, в которую нужно добавить изменения:
+
+    git checkout TargetBranch
+
+Добавляем изменения из ветки-источника:
+
+    git merge SourceBranch
 
 ## Вывести список веток
 #### Вывести список локальных веток
