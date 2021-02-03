@@ -59,3 +59,8 @@
 или
 
     git push origin --delete MyRemoteBrach
+
+## Размещение на github pages
+Источником публикации будет директория `dist` 
+
+    git subtree push --prefix dist origin gh-pages
